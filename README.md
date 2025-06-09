@@ -6,33 +6,52 @@ from these files.
 
 ## Data structure
 
-Each board vendor (defined as the lowercase value of `SYSTEM_VENDOR` in DTS.
-Replace any whitespaces with `_`.) has a JSON document in the `boards`
-directory, which contains variables used in DTS (`board_config` function).
-Top-level key-value pairs correspond to variables that are common for all boards
-from the vendor. The `models` key contains a list of board models (output of
-`SYSTEM_MODEL`) with key-value pairs corresponding to model-specific variables. 
+Each system vendor (that is being defined by `SYSTEM_VENDOR` variable in DTS)
+has a JSON document in the `configs` directory, e.g.:
 
-It is important to note that some boards can have the same `SYSTEM_MODEL`, but
-different values of `BOARD_MODEL` in DTS. For example, the system model
-`V54x_6x_TU` has 2 board models: `V540TU` and `V560TU`. In such cases, an
-additional field `board_model` needs to be added to the system model dictionary.
-See examples for more details.
+ ```text
+ .
+├── configs
+│   ├── hardkernel.json
+│   ├── notebook.json
+│   └── pc_engines.json
+└── README.md
+ ```
 
-## Making changes
+> Note: the system vendor names should be lowercase and with whitespaces
+> replaced by `_`.
+  
+The JSON documents contain variables that are used in DTS and have a specific
+structure:
 
-### Modifying existing boards
+```json
+{
+  "system_vendor_specific_variable": "value",
+  "models": {
+    "system_model": {
+      "system_model_specific_variable": "value",
+      "board_models": {
+        "board_model_specific_variable": "value"
+      }
+    }
+  }
+}
+```
 
-Make changes to the board dictionary in the vendor JSON.
+Where:
+* First-level keys (the `system_vendor_specific_variable` from the example
+above) represent system vendor-specific variables that are common for system
+models and board models.
+* Second-level keys (the `system_model_specific_variable` from the example
+above) represent system model-specific variables that are common for system
+models and board models under specific system vendor.
+* Third-level keys (the `board_model_specific_variable` from the example above)
+represent board model-specific variables that are common for a specific board
+model under specific system model.
 
-### Adding a new board
-
-1. If the vendor JSON already exists, add the board to the `models` dictionary.
-It should be a nested dictionary.
-2. If the vendor JSON does not exist, create it.
-3. Fill out model-specific variables.
-
-List of keys that are used as variables in DTS:
+The variables set at a higher levels could be overwritten on lower levels. All
+the variables **must be** lowercase and should be present in the list of
+variables below:
 
 ```text
 dasharo_rel_name
@@ -42,6 +61,7 @@ dasharo_rel_ver_dpp_cap
 heads_rel_ver_dpp
 dasharo_rel_ver_dpp_seabios
 compatible_ec_fw_version
+compatible_heads_ec_fw_version
 dasharo_rel_ver_cap
 dasharo_rel_ver_dpp_cap
 dasharo_support_cap_from
@@ -59,12 +79,36 @@ programmer_ec
 flashrom_add_opt_update_override
 heads_switch_flashrom_opt_override
 platform_sign_key
+flash_chip_list
+flashrom_add_opt_deploy
+flashrom_add_opt_update
+bucket_dpp
+bucket_dpp_heads
+can_use_flashrom
 ```
 
-Some platforms have additional variables that are not present here. Check
-`dts-scripts` for more information.
+Not all system models are divided into board models, sometimes the
+`board_models` dictionary migth be absent in the JSON files.
 
-### Examples
+## Example changes
+
+Bumping the firmware revision for an existing board (`Odroid H4+`):
+
+```diff
+diff --git a/configs/hardkernel.json b/configs/hardkernel.json
+index f4c7e96..8607095 100644
+--- a/configs/hardkernel.json
++++ b/configs/hardkernel.json
+@@ -6,7 +6,7 @@
+       "platform_sign_key": "dasharo/hardkernel_odroid_h4/dasharo-release-0.x-compatible-with-hardkernel-odroid-h4-family-signing-key.asc",
+       "bucket_dpp": "dasharo-odroid-h4-plus-uefi",
+       "dasharo_rel_name": "hardkernel_odroid_h4",
+-      "dasharo_rel_ver_dpp": "0.9.0"
++      "dasharo_rel_ver_dpp": "0.9.1"
+     }
+   }
+ }
+```
 
 Adding new boards with separate `BOARD_MODEL` (Novacustom `V54x_6x_TU`):
 
