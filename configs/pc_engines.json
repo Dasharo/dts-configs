@@ -1,0 +1,25 @@
+{
+  "bucket_dpp": "dasharo-pcengines-uefi",
+  "bucket_dpp_seabios": "dasharo-pcengines-seabios",
+  "dasharo_rel_ver_dpp": "0.9.0",
+  "can_install_bios": true,
+  "dasharo_rel_ver_dpp_seabios": "24.05.00.01",
+  "programmer_bios": "internal:boardmismatch=force",
+  "need_smmstore_migration": true,
+  "need_bootsplash_migration": true,
+  "flash_chip_list": "W25Q64JV-.Q",
+  "models": {
+    "apu2": {
+      "dasharo_rel_name": "pcengines_apu2"
+    },
+    "apu3": {
+      "dasharo_rel_name": "pcengines_apu3"
+    },
+    "apu4": {
+      "dasharo_rel_name": "pcengines_apu4"
+    },
+    "apu6": {
+      "dasharo_rel_name": "pcengines_apu6"
+    }
+  }
+}
