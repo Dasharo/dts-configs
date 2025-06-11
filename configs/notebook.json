@@ -9,7 +9,7 @@
     "nv4xpz": {
       "dasharo_rel_name": "novacustom_nv4x_adl",
       "dasharo_rel_ver": "1.7.2",
-      "heads_rel_ver_dpp": "0.9.1",
+      "heads_rel_ver_dpp": "0.9.2",
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
       "compatible_ec_fw_version": "2022-08-31_cbff21b"
     }
