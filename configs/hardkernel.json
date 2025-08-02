@@ -6,7 +6,8 @@
       "platform_sign_key": "dasharo/hardkernel_odroid_h4/dasharo-release-0.x-compatible-with-hardkernel-odroid-h4-family-signing-key.asc",
       "bucket_dpp": "dasharo-odroid-h4-plus-uefi",
       "dasharo_rel_name": "hardkernel_odroid_h4",
-      "dasharo_rel_ver_dpp": "0.9.0"
+      "dasharo_rel_ver_dpp": "0.9.0",
+      "coreboot_uefi_to_slim_bootloader_uefi_transition": "true"
     }
   }
 }
