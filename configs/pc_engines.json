@@ -9,6 +9,7 @@
   "need_smmstore_migration": true,
   "need_bootsplash_migration": true,
   "flash_chip_list": "W25Q64JV-.Q",
+  "coreboot_seabios_to_coreboot_uefi_transition": "true",
   "models": {
     "apu2": {
       "dasharo_rel_name": "pcengines_apu2"
