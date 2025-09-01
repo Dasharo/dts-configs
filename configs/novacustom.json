@@ -1,0 +1,12 @@
+{
+  "can_use_flashrom": true,
+  "platform_sign_key": "customer-keys/novacustom/novacustom-open-source-firmware-release-1.x-key.asc customer-keys/novacustom/dasharo-release-0.9.x-for-novacustom-signing-key.asc",
+  "need_smmstore_migration": true,
+  "can_install_bios": true,
+  "models": {
+    "nuc_box": {
+      "dasharo_rel_name": "novacustom_nuc_box_mtl",
+      "dasharo_rel_ver": "0.9.0"
+    }
+  }
+}
