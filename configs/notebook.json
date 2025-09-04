@@ -25,6 +25,7 @@
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
       "flashrom_add_opt_update_override": "--ifd -i bios",
       "programmer_bios": "internal:boardmismatch=force",
+      "has_fusing_binary": true,
       "board_models": {
         "v540tu": {
           "dasharo_rel_name": "novacustom_v54x_mtl_igpu",
@@ -46,6 +47,7 @@
       "need_bootsplash_migration": true,
       "flashrom_add_opt_update_override": "--ifd -i bios",
       "programmer_bios": "internal:boardmismatch=force",
+      "has_fusing_binary": true,
       "board_models": {
         "v540tnx": {
           "dasharo_rel_name": "novacustom_v54x_mtl_dgpu",
