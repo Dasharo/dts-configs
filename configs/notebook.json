@@ -28,12 +28,21 @@
       "board_models": {
         "v540tu": {
           "dasharo_rel_name": "novacustom_v54x_mtl_igpu",
-          "compatible_heads_ec_fw_version": "2024-07-17_4ae73b9"
+          "compatible_heads_ec_fw_version": "2024-07-17_4ae73b9",
+          "bios_path_comm":     "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v540tu_mtl/uefi/v1.0.0/novacustom_v54x_mtl_igpu_v1.0.0_btg_provisioned.rom",
+          "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v540tu_mtl/uefi/v1.0.0/novacustom_v54x_mtl_igpu_v1.0.0_btg_provisioned.cap",
+          "ec_path_comm":       "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v540tu_mtl/uefi/v1.0.0/novacustom_v54x_mtl_igpu_ec_v1.0.0.rom",
+          "heads_link_dpp":     "dasharo-novacustom-heads/novacustom_v54x_mtl_igpu/v0.9.0/novacustom_v54x_mtl_igpu_v0.9.0_heads.rom"
         },
 
         "v560tu": {
           "dasharo_rel_name": "novacustom_v56x_mtl_igpu",
-          "compatible_heads_ec_fw_version": "2024-12-20_368e08e"
+          "compatible_heads_ec_fw_version": "2024-12-20_368e08e",
+          "bios_path_comm":     "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v560tu_mtl/uefi/v1.0.0/novacustom_v56x_mtl_igpu_v1.0.0_btg_provisioned.rom",
+          "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v560tu_mtl/uefi/v1.0.0/novacustom_v56x_mtl_igpu_v1.0.0_btg_provisioned.cap",
+          "ec_path_comm":       "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v560tu_mtl/uefi/v1.0.0/novacustom_v56x_mtl_igpu_ec_v1.0.0.rom",
+          "heads_link_dpp":     "dasharo-novacustom-heads/novacustom_v56x_mtl_igpu/v0.9.0/novacustom_v56x_mtl_igpu_v0.9.0_heads.rom",
+          "heads_ec_link_dpp":  "dasharo-novacustom-heads/novacustom_v56x_mtl_igpu/v0.9.0/novacustom_v56x_mtl_igpu_ec_v0.9.0.rom"
         }
       }
     },
@@ -49,12 +58,18 @@
       "board_models": {
         "v540tnx": {
           "dasharo_rel_name": "novacustom_v54x_mtl_dgpu",
-          "compatible_heads_ec_fw_version": "2024-07-17_4ae73b9"
+          "compatible_heads_ec_fw_version": "2024-07-17_4ae73b9",
+          "bios_path_comm":     "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_v1.0.0_btg_provisioned.rom",
+          "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_v1.0.0_btg_provisioned.cap",
+          "ec_path_comm":       "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_ec_v1.0.0.rom"
         },
 
         "v560tnx": {
           "dasharo_rel_name": "novacustom_v56x_mtl_dgpu",
-          "compatible_heads_ec_fw_version": "2024-12-20_368e08e"
+          "compatible_heads_ec_fw_version": "2024-12-20_368e08e",
+          "bios_path_comm":     "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_provisioned.rom",
+          "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_provisioned.cap",
+          "ec_path_comm":       "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_ec_v1.0.0.rom"
         }
       }
     }
