@@ -17,7 +17,7 @@
     "v54x_6x_tu": {
       "dasharo_rel_ver": "1.0.0",
       "dasharo_rel_ver_cap": "1.0.0",
-      "dasharo_support_cap_from": "1.0.0-rc1",
+      "dasharo_support_cap_from": "1.0.0-rc6",
       "heads_rel_ver_dpp": "0.9.0",
       "have_heads_fw": true,
       "compatible_ec_fw_version": "2024-07-17_4ae73b9",
@@ -50,7 +50,7 @@
     "v5xtnc_tnd_tne": {
       "dasharo_rel_ver": "1.0.0",
       "dasharo_rel_ver_cap": "1.0.0",
-      "dasharo_support_cap_from": "1.0.0-rc1",
+      "dasharo_support_cap_from": "1.0.0-rc6",
       "compatible_ec_fw_version": "2024-09-10_3786c8c",
       "need_bootsplash_migration": true,
       "flashrom_add_opt_update_override": "--ifd -i bios",
