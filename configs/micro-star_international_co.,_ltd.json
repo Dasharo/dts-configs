@@ -5,7 +5,7 @@
     "MS-7D25": {
       "dasharo_rel_name": "msi_ms7d25",
       "dasharo_rel_ver": "1.1.1",
-      "dasharo_rel_ver_dpp": "1.1.4",
+      "dasharo_rel_ver_dpp": "1.1.5",
       "can_install_bios": true,
       "have_heads_fw": true,
       "heads_rel_ver_dpp": "0.9.0",
@@ -15,7 +15,7 @@
       "need_smmstore_migration" : true,
       "need_romhole_migration" : true,
       "dasharo_rel_name_cap" : "msi_ms7d25",
-      "dasharo_rel_ver_dpp_cap" : "1.1.4",
+      "dasharo_rel_ver_dpp_cap" : "1.1.5",
       "dasharo_support_cap_from" : "1.1.4",
       "need_bootsplash_migration" : true,
       "flashrom_add_opt_update_override" : "--ifd -i bios",
