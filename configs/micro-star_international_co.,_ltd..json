@@ -58,7 +58,7 @@
       "need_romhole_migration" : true,
       "dasharo_rel_name_cap" : "msi_ms7e06",
       "dasharo_rel_ver_dpp_cap" : "0.9.3",
-      "dasharo_support_cap_from" : "0.9.2",
+      "dasharo_support_cap_from" : "0.9.3",
       "need_bootsplash_migration" : true,
       "flashrom_add_opt_update_override" : "--ifd -i bios",
       "board_models": {
