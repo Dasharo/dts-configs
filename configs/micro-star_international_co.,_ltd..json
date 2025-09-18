@@ -10,36 +10,36 @@
     "ms-7d25": {
       "dasharo_rel_name": "msi_ms7d25",
       "dasharo_rel_ver": "1.1.1",
-      "dasharo_rel_ver_dpp": "1.1.4",
+      "dasharo_rel_ver_dpp": "1.1.5",
       "heads_rel_ver_dpp": "0.9.0",
       "platform_sign_key": "dasharo/msi_ms7d25/dasharo-release-1.x-compatible-with-msi-ms-7d25-signing-key.asc dasharo/msi_ms7d25/dasharo-release-0.x-compatible-with-msi-ms-7d25-signing-key.asc",
       "need_smbios_migration": true,
       "dasharo_rel_name_cap": "msi_ms7d25",
-      "dasharo_rel_ver_dpp_cap": "1.1.4",
-      "dasharo_support_cap_from": "1.1.4",
+      "dasharo_rel_ver_dpp_cap": "1.1.5",
+      "dasharo_support_cap_from": "1.1.5",
       "board_models": {
         "pro z690-a wifi ddr4(ms-7d25)": {
           "bios_path_comm": "msi_ms7e06/v1.1.1/msi_ms7e06_v1.1.1_ddr4.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr4.rom",
-          "bios_link_dpp_cap": "dasharo-msi-heads/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr4.cap",
+          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr4.rom",
+          "bios_link_dpp_cap": "dasharo-msi-heads/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr4.cap",
           "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr4_heads.rom"
         },
         "pro z690-a ddr4(ms-7d25)": {
           "bios_path_comm": "msi_ms7e06/v1.1.1/msi_ms7e06_v1.1.1_ddr4.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr4.rom",
-          "bios_link_dpp_cap": "dasharo-msi-heads/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr4.cap",
+          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr4.rom",
+          "bios_link_dpp_cap": "dasharo-msi-heads/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr4.cap",
           "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr4_heads.rom"
         },
         "pro z690-a wifi (ms-7d25)": {
           "bios_path_comm": "msi_ms7e06/v1.1.1/msi_ms7e06_v1.1.1_ddr5.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr5.rom",
-          "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr5.cap",
+          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr5.rom",
+          "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr5.cap",
           "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr5_heads.rom"
         },
         "pro z690-a (ms-7d25)": {
           "bios_path_comm": "msi_ms7e06/v1.1.1/msi_ms7e06_v1.1.1_ddr5.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr5.rom",
-          "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.4/msi_ms7d25_v1.1.4_ddr5.cap",
+          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr5.rom",
+          "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.5/msi_ms7d25_v1.1.5_ddr5.cap",
           "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr5_heads.rom"
         }
       }
