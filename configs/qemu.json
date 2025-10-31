@@ -1,0 +1,16 @@
+{
+  "models": {
+    "qemu x86 q35/ich9": {
+      "can_install_bios": "true",
+      "dasharo_rel_name_cap": "qemu_q35",
+      "dasharo_rel_ver_cap": "0.2.0",
+      "bios_path_comm_cap": "qemu_q35/v0.2.0/TODO"
+    },
+    "standard pc (q35 + ich9, 2009)": {
+      "can_install_bios": "true",
+      "dasharo_rel_name_cap": "qemu_q35",
+      "dasharo_rel_ver_cap": "0.2.0",
+      "bios_path_comm_cap": "qemu_q35/v0.2.0/TODO"
+    }
+  }
+}
