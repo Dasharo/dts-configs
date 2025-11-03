@@ -6,6 +6,27 @@
   "need_smmstore_migration": true,
   "bucket_dpp_heads": "dasharo-novacustom-heads",
   "models": {
+    "nv4xmb,me,mz": {
+      "DASHARO_REL_NAME": "novacustom_nv4x_tgl",
+      "DASHARO_REL_VER": "1.5.2",
+      "CAN_INSTALL_BIOS": "true",
+      "COMPATIBLE_EC_FW_VERSION": "2022-10-07_c662165"
+    },
+
+    "ns50_70mu": {
+      "dasharo_rel_name": "novacustom_ns5x_tgl",
+      "dasharo_rel_ver": "1.5.2",
+      "can_install_bios": "true",
+      "compatible_ec_fw_version": "2022-08-31_cbff21b",
+      "programmer_ec": "ite_ec:romsize=128K,autoload=disable"
+    },
+
+    "ns5x_ns7xpu" : {
+      "dasharo_rel_name": "novacustom_ns5x_adl",
+      "dasharo_rel_ver": "1.7.2",
+      "compatible_ec_fw_version": "2022-08-31_cbff21b"
+    },
+
     "nv4xpz": {
       "dasharo_rel_name": "novacustom_nv4x_adl",
       "dasharo_rel_ver": "1.7.2",
