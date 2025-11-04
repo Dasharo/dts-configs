@@ -10,7 +10,9 @@
       "DASHARO_REL_NAME": "novacustom_nv4x_tgl",
       "DASHARO_REL_VER": "1.5.2",
       "CAN_INSTALL_BIOS": "true",
-      "COMPATIBLE_EC_FW_VERSION": "2022-10-07_c662165"
+      "COMPATIBLE_EC_FW_VERSION": "2022-10-07_c662165",
+      "bios_path_comm": "novacustom_nv4x_tgl/v1.5.2/novacustom_nv4x_tgl_v1.5.2.rom",
+      "ec_path_comm": "novacustom_nv4x_tgl/v1.5.2/novacustom_nv4x_tgl_ec_v1.5.2.rom"
     },
 
     "ns50_70mu": {
@@ -18,13 +20,17 @@
       "dasharo_rel_ver": "1.5.2",
       "can_install_bios": "true",
       "compatible_ec_fw_version": "2022-08-31_cbff21b",
-      "programmer_ec": "ite_ec:romsize=128K,autoload=disable"
+      "programmer_ec": "ite_ec:romsize=128K,autoload=disable",
+      "bios_path_comm": "novacustom_ns5x_tgl/v1.5.2/novacustom_ns5x_tgl_v1.5.2.rom",
+      "ec_path_comm": "novacustom_ns5x_tgl/v1.5.2/novacustom_ns5x_tgl_ec_v1.5.2.rom"
     },
 
     "ns5x_ns7xpu" : {
       "dasharo_rel_name": "novacustom_ns5x_adl",
       "dasharo_rel_ver": "1.7.2",
-      "compatible_ec_fw_version": "2022-08-31_cbff21b"
+      "compatible_ec_fw_version": "2022-08-31_cbff21b",
+      "bios_path_comm": "novacustom_ns5x_adl/v1.7.2/novacustom_ns5x_adl_v1.7.2.rom",
+      "ec_path_comm": "novacustom_ns5x_adl/v1.7.2/novacustom_ns5x_adl_ec_v1.7.2.rom"
     },
 
     "nv4xpz": {
@@ -32,7 +38,9 @@
       "dasharo_rel_ver": "1.7.2",
       "heads_rel_ver_dpp": "0.9.2",
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
-      "compatible_ec_fw_version": "2022-08-31_cbff21b"
+      "compatible_ec_fw_version": "2022-08-31_cbff21b",
+      "bios_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_v1.7.2.rom",
+      "ec_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_ec_v1.7.2.rom"
     },
 
     "v54x_6x_tu": {
