@@ -5,6 +5,8 @@
   "platform_sign_key": "customer-keys/novacustom/novacustom-open-source-firmware-release-1.x-key.asc customer-keys/novacustom/dasharo-release-0.9.x-for-novacustom-signing-key.asc",
   "need_smmstore_migration": true,
   "bucket_dpp_heads": "dasharo-novacustom-heads",
+  "need_bootsplash_migration": true,
+  "flashrom_add_opt_update_override": "--ifd -i bios",
   "models": {
     "nv4xmb,me,mz": {
       "DASHARO_REL_NAME": "novacustom_nv4x_tgl",
@@ -50,9 +52,7 @@
       "heads_rel_ver_dpp": "0.9.0",
       "have_heads_fw": true,
       "compatible_ec_fw_version": "2024-07-17_4ae73b9",
-      "need_bootsplash_migration": true,
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
-      "flashrom_add_opt_update_override": "--ifd -i bios",
       "programmer_bios": "internal:boardmismatch=force",
       "board_models": {
         "v540tu": {
@@ -82,8 +82,6 @@
       "dasharo_rel_ver": "0.9.1",
       "dasharo_support_cap_from": "1.0.0-rc7",
       "compatible_ec_fw_version": "2024-09-10_3786c8c",
-      "need_bootsplash_migration": true,
-      "flashrom_add_opt_update_override": "--ifd -i bios",
       "programmer_bios": "internal:boardmismatch=force",
       "board_models": {
         "v540tnx": {
