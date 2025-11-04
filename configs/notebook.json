@@ -42,7 +42,8 @@
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
       "compatible_ec_fw_version": "2022-08-31_cbff21b",
       "bios_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_v1.7.2.rom",
-      "ec_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_ec_v1.7.2.rom"
+      "ec_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_ec_v1.7.2.rom",
+      "have_heads_fw": true
     },
 
     "v54x_6x_tu": {
