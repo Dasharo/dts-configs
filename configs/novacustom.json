@@ -7,7 +7,7 @@
     "nuc_box": {
       "dasharo_rel_name": "novacustom_nuc_box_mtl",
       "dasharo_rel_ver": "0.9.0",
-      "bios_path_comm": "novacustom_nuc_box_mtl/uefi/v0.9.0/novacustom_nuc_box_mtl_v0.9.1.rom"
+      "bios_path_comm": "novacustom_nuc_box_mtl/uefi/v0.9.0/novacustom_nuc_box_mtl_v0.9.0.rom"
     }
   }
 }
