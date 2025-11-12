@@ -52,6 +52,7 @@
       "dasharo_rel_name_cap": "msi_ms7e06",
       "dasharo_rel_ver_dpp_cap": "0.9.3",
       "dasharo_support_cap_from": "0.9.3",
+      "have_heads_fw": false,
       "board_models": {
         "pro z790-p wifi ddr4(ms-7e06)": {
           "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.3/msi_ms7e06_v0.9.3_ddr4.rom",
