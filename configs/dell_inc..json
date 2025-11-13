@@ -1,0 +1,35 @@
+{
+  "bucket_dpp": "dasharo-optiplex-uefi",
+  "dasharo_rel_name": "dell_optiplex_7010_9010",
+  "dasharo_rel_ver_dpp": "0.1.1",
+  "bios_link_dpp": "dasharo-optiplex-uefi/v0.1.1/dell_optiplex_7010_9010_v0.1.1.rom",
+  "can_install_bios": "true",
+  "need_smbios_migration": "true",
+  "need_blob_transmission": "true",
+  "sinit_acm_filename": "SNB_IVB_SINIT_20190708_PW.bin",
+  "sinit_acm_hash_filename": "SNB_IVB_SINIT_20190708_PW.bin.sha256",
+  "acm_mirror_url": "https://dl.3mdeb.com/mirror/intel/acm",
+  "sinit_acm_url": "https://dl.3mdeb.com/mirror/intel/acm/SNB_IVB_SINIT_20190708_PW.bin",
+  "sinit_acm_hash_url": "https://dl.3mdeb.com/mirror/intel/acm/SNB_IVB_SINIT_20190708_PW.bin.sha256",
+  "sinit_acm": "/tmp/SNB_IVB_SINIT_20190708_PW.bin",
+  "flashrom_add_opt_deploy": "--ifd -i bios",
+  "flashrom_add_opt_update": "--fmap -i RW_SECTION_A",
+  "models": {
+    "optiplex 7010": {
+      "dbt_bios_update_filename": "/tmp/O7010A29.exe",
+      "dbt_bios_update_url": "https://dl.dell.com/FOLDER05066036M/1/O7010A29.exe",
+      "dbt_bios_update_hash": "ceb82586c67cd8d5933ac858c12e0cb52f6e0e4cb3249f964f1c0cfc06d16f52  /tmp/O7010A29.exe",
+      "dbt_uefi_image": "/tmp/_O7010A29.exe.extracted/65C10",
+      "sch5545_fw": "/tmp/_O7010A29.exe.extracted/65C10_output/pfsobject/section-7ec6c2b0-3fe3-42a0-a316-22dd0517c1e8/volume-0x50000/file-d386beb8-4b54-4e69-94f5-06091f67e0d3/section0.raw",
+      "acm_bin": "/tmp/_O7010A29.exe.extracted/65C10_output/pfsobject/section-7ec6c2b0-3fe3-42a0-a316-22dd0517c1e8/volume-0x500000/file-2d27c618-7dcd-41f5-bb10-21166be7e143/object-0.raw"
+    },
+    "optiplex 9010": {
+      "dbt_bios_update_filename": "/tmp/O9010A30.exe",
+      "dbt_bios_update_url": "https://dl.dell.com/FOLDER05066009M/1/O9010A30.exe",
+      "dbt_bios_update_hash": "b11952f43d0ad66f3ce79558b8c5dd43f30866158ed8348e3b2dae1bbb07701b  /tmp/O9010A30.exe",
+      "dbt_uefi_image": "/tmp/_O9010A30.exe.extracted/65C10",
+      "sch5545_fw": "/tmp/_O9010A30.exe.extracted/65C10_output/pfsobject/section-7ec6c2b0-3fe3-42a0-a316-22dd0517c1e8/volume-0x50000/file-d386beb8-4b54-4e69-94f5-06091f67e0d3/section0.raw",
+      "acm_bin": "/tmp/_O9010A30.exe.extracted/65C10_output/pfsobject/section-7ec6c2b0-3fe3-42a0-a316-22dd0517c1e8/volume-0x500000/file-2d27c618-7dcd-41f5-bb10-21166be7e143/object-0.raw"
+    }
+  }
+}

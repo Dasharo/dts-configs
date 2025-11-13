@@ -5,7 +5,8 @@
       "platform_sign_key": "customer-keys/novacustom/novacustom-open-source-firmware-release-1.x-key.asc customer-keys/novacustom/dasharo-release-0.9.x-for-novacustom-signing-key.asc",
       "can_install_bios": true,
       "dasharo_rel_name": "novacustom_nuc_box_mtl",
-      "dasharo_rel_ver": "0.9.0"
+      "dasharo_rel_ver": "0.9.0",
+      "bios_path_comm": "novacustom_nuc_box_mtl/uefi/v0.9.0/novacustom_nuc_box_mtl_v0.9.0.rom"
     }
   }
 }
