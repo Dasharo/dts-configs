@@ -1,6 +1,6 @@
 {
   "can_install_bios": true,
-  "have_heads_fw": false,
+  "have_heads_fw": true,
   "heads_switch_flashrom_opt_override": "--ifd -i bios",
   "need_smmstore_migration": true,
   "need_romhole_migration": true,
