@@ -12,16 +12,24 @@
   "coreboot_seabios_to_coreboot_uefi_transition": "true",
   "models": {
     "apu2": {
-      "dasharo_rel_name": "pcengines_apu2"
+      "dasharo_rel_name": "pcengines_apu2",
+      "bios_link_dpp": "dasharo-pcengines-uefi/v0.9.1/pcengines_apu2_v0.9.1.rom",
+      "bios_link_dpp_seabios": "dasharo-pcengines-seabios/pcengines_apu2/v24.08.00.01/pcengines_apu2_seabios_v24.08.00.01.rom"
     },
     "apu3": {
-      "dasharo_rel_name": "pcengines_apu3"
+      "dasharo_rel_name": "pcengines_apu3",
+      "bios_link_dpp": "dasharo-pcengines-uefi/v0.9.1/pcengines_apu3_v0.9.1.rom",
+      "bios_link_dpp_seabios": "dasharo-pcengines-seabios/pcengines_apu2/v24.08.00.01/pcengines_apu3_seabios_v24.08.00.01.rom"
     },
     "apu4": {
-      "dasharo_rel_name": "pcengines_apu4"
+      "dasharo_rel_name": "pcengines_apu4",
+      "bios_link_dpp": "dasharo-pcengines-uefi/v0.9.1/pcengines_apu4_v0.9.1.rom",
+      "bios_link_dpp_seabios": "dasharo-pcengines-seabios/pcengines_apu2/v24.08.00.01/pcengines_apu4_seabios_v24.08.00.01.rom"
     },
     "apu6": {
-      "dasharo_rel_name": "pcengines_apu6"
+      "dasharo_rel_name": "pcengines_apu6",
+      "bios_link_dpp": "dasharo-pcengines-uefi/v0.9.1/pcengines_apu6_v0.9.1.rom",
+      "bios_link_dpp_seabios": "dasharo-pcengines-seabios/pcengines_apu2/v24.08.00.01/pcengines_apu6_seabios_v24.08.00.01.rom"
     }
   }
 }
