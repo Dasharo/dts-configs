@@ -2,7 +2,7 @@
   "can_use_flashrom": true,
   "have_ec": true,
   "need_ec_reset": true,
-  "platform_sign_key": "customer-keys/novacustom/novacustom-open-source-firmware-release-1.x-key.asc customer-keys/novacustom/dasharo-release-0.9.x-for-novacustom-signing-key.asc",
+  "platform_sign_key": "",
   "need_smmstore_migration": true,
   "bucket_dpp_heads": "dasharo-novacustom-heads",
   "need_bootsplash_migration": true,
