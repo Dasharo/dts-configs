@@ -19,28 +19,28 @@
       "dasharo_support_cap_from": "1.1.5",
       "board_models": {
         "pro z690-a wifi ddr4(ms-7d25)": {
-          "bios_path_comm": "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr4.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr4.rom",
+          "bios_path_comm":    "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr4.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr4.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr4.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr4_heads.rom"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr4_heads.rom"
         },
         "pro z690-a ddr4(ms-7d25)": {
-          "bios_path_comm": "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr4.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr4.rom",
+          "bios_path_comm":    "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr4.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr4.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr4.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr4_heads.rom"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr4_heads.rom"
         },
         "pro z690-a wifi (ms-7d25)": {
-          "bios_path_comm": "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr5.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr5.rom",
+          "bios_path_comm":    "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr5.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr5.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr5.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr5_heads.rom"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr5_heads.rom"
         },
         "pro z690-a (ms-7d25)": {
-          "bios_path_comm": "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr5.rom",
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr5.rom",
+          "bios_path_comm":    "msi_ms7d25/v1.1.1/msi_ms7d25_v1.1.1_ddr5.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr5.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7D25/v1.1.6/msi_ms7d25_v1.1.6_ddr5.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr5_heads.rom"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7D25/v0.9.0/msi_ms7d25_v0.9.0_ddr5_heads.rom"
         }
       }
     },
@@ -54,38 +54,38 @@
       "dasharo_support_cap_from": "0.9.3",
       "board_models": {
         "pro z790-p wifi ddr4(ms-7e06)": {
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
-          "programmer_bios": "internal:boardmismatch=force"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
+          "programmer_bios":   "internal:boardmismatch=force"
         },
         "pro z790-p ddr4(ms-7e06)": {
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
-          "programmer_bios": "internal:boardmismatch=force"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
+          "programmer_bios":   "internal:boardmismatch=force"
         },
         "pro z790-p wifi ddr4 (ms-7e06)": {
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
-          "programmer_bios": "internal:boardmismatch=force"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
+          "programmer_bios":   "internal:boardmismatch=force"
         },
         "pro z790-p ddr4 (ms-7e06)": {
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr4.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
-          "programmer_bios": "internal:boardmismatch=force"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr4_heads.rom",
+          "programmer_bios":   "internal:boardmismatch=force"
         },
         "pro z790-p wifi (ms-7e06)": {
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr5.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr5.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr5.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr5_heads.rom"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr5_heads.rom"
         },
         "pro z790-p (ms-7e06)": {
-          "bios_link_dpp": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr5.rom",
+          "bios_link_dpp":     "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr5.rom",
           "bios_link_dpp_cap": "dasharo-msi-uefi/MS-7E06/v0.9.4/msi_ms7e06_v0.9.4_ddr5.cap",
-          "heads_link_dpp": "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr5_heads.rom"
+          "heads_link_dpp":    "dasharo-msi-heads/MS-7E06/v0.9.0/msi_ms7e06_v0.9.0_ddr5_heads.rom"
         }
       }
     }
