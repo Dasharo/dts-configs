@@ -56,6 +56,7 @@
       "compatible_ec_fw_version": "2024-07-17_4ae73b9",
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
       "programmer_bios": "internal:boardmismatch=force",
+      "intel_btg_hash": "e64b6b0e82c68fecc58f750d3696c26e1c98bf9e3149c81f3b2ed775eb9d2c157a99c103c62c44c0cdc61be971caeae1",
       "board_models": {
         "v540tu": {
           "dasharo_rel_name": "novacustom_v54x_mtl_igpu",
