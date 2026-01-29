@@ -82,23 +82,29 @@
     },
 
     "v5xtnc_tnd_tne": {
-      "dasharo_rel_ver": "0.9.1",
+      "dasharo_rel_ver": "1.0.0",
+      "dasharo_rel_ver_cap": "1.0.0",
       "dasharo_support_cap_from": "1.0.0-rc7",
       "compatible_ec_fw_version": "2024-09-10_3786c8c",
       "programmer_bios": "internal:boardmismatch=force",
+      "intel_btg_hash": "e64b6b0e82c68fecc58f750d3696c26e1c98bf9e3149c81f3b2ed775eb9d2c157a99c103c62c44c0cdc61be971caeae1",
       "board_models": {
         "v540tnx": {
           "dasharo_rel_name": "novacustom_v54x_mtl_dgpu",
           "compatible_heads_ec_fw_version": "2024-07-17_4ae73b9",
-          "bios_path_comm":     "novacustom_v54x_mtl/v0.9.1/novacustom_v54x_mtl_v0.9.1.rom",
-          "ec_path_comm":       "novacustom_v54x_mtl/v0.9.1/novacustom_v54x_mtl_ec_v0.9.1.rom"
+          "bios_path_comm":     "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_v1.0.0_btg_prod.rom",
+          "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_v1.0.0_btg_prod.cap",
+          "eom_path_comm_cap":  "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_v1.0.0_btg_prod_eom.cap",
+          "ec_path_comm":       "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v540tnx_mtl/uefi/v1.0.0/novacustom_v54x_mtl_dgpu_ec_v1.0.0.rom"
         },
 
         "v560tnx": {
           "dasharo_rel_name": "novacustom_v56x_mtl_dgpu",
           "compatible_heads_ec_fw_version": "2024-12-20_368e08e",
-          "bios_path_comm":     "novacustom_v56x_mtl/v0.9.1/novacustom_v56x_mtl_v0.9.1.rom",
-          "ec_path_comm":       "novacustom_v56x_mtl/v0.9.1/novacustom_v56x_mtl_ec_v0.9.1.rom"
+          "bios_path_comm":     "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_prod.rom",
+          "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_prod.cap",
+          "eom_path_comm_cap":  "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_prod_eom.cap",
+          "ec_path_comm":       "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_ec_v1.0.0.rom"
         }
       }
     }
