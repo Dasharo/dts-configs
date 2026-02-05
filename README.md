@@ -20,7 +20,7 @@ has a JSON document in the `configs` directory, e.g.:
 
 > Note: the system vendor names should be lowercase and with whitespaces
 > replaced by `_`.
-  
+
 The JSON documents contain variables that are used in DTS and have a specific
 structure:
 
@@ -65,6 +65,7 @@ compatible_heads_ec_fw_version
 dasharo_rel_ver_cap
 dasharo_rel_ver_dpp_cap
 dasharo_support_cap_from
+authority_name - name of firmware signer. Used when displaying fusing warning
 can_install_bios
 have_heads_fw
 have_ec
