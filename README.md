@@ -18,7 +18,7 @@ has a JSON document in the `configs` directory, e.g.:
 └── README.md
  ```
 
-> Note: the system vendor names should be lowercase and with whitespaces
+> Note: the system vendor names should be lowercase and with whitespace
 > replaced by `_`.
 
 The JSON documents contain variables that are used in DTS and have a specific
@@ -49,7 +49,7 @@ models and board models under specific system vendor.
 represent board model-specific variables that are common for a specific board
 model under specific system model.
 
-The variables set at a higher levels could be overwritten on lower levels. All
+The variables set at higher levels could be overwritten on lower levels. All
 the variables **must be** lowercase and should be present in the list of
 variables below:
 
@@ -65,6 +65,8 @@ compatible_heads_ec_fw_version
 dasharo_rel_ver_cap
 dasharo_rel_ver_dpp_cap
 dasharo_support_cap_from
+dasharo_support_cap_with_fum_from - https://github.com/Dasharo/dasharo-issues/issues/1759
+intel_btg_hash - expected key hash used with https://github.com/Dasharo/dts-scripts/blob/main/scripts/btg_key_validator
 authority_name - name of firmware signer. Used when displaying fusing warning
 can_install_bios
 have_heads_fw
@@ -89,7 +91,7 @@ can_use_flashrom
 ```
 
 Not all system models are divided into board models, sometimes the
-`board_models` dictionary migth be absent in the JSON files.
+`board_models` dictionary might be absent in the JSON files.
 
 ## Example changes
 
@@ -111,7 +113,7 @@ index f4c7e96..8607095 100644
  }
 ```
 
-Adding new boards with separate `BOARD_MODEL` (Novacustom `V54x_6x_TU`):
+Adding new boards with separate `BOARD_MODEL` (NovaCustom `V54x_6x_TU`):
 
 ```diff
 diff --git a/configs/notebook.json b/configs/notebook.json
