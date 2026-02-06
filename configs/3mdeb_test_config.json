@@ -1,0 +1,17 @@
+{
+  "_comment": "Test config to be used with OSFV tests",
+  "can_use_flashrom": true,
+  "authority_name": "3mdeb",
+  "models": {
+    "fum_cap_test": {
+      "_comment": "Test capsule update/fuse with FUM. Use with V540 exports",
+      "dasharo_rel_ver_cap": "1.0.2",
+      "dasharo_support_cap_from": "1.0.0",
+      "dasharo_support_cap_with_fum_from": "1.0.1",
+      "intel_btg_hash": "e64b6b0e82c68fecc58f750d3696c26e1c98bf9e3149c81f3b2ed775eb9d2c157a99c103c62c44c0cdc61be971caeae1",
+      "dasharo_rel_name": "novacustom_v54x_mtl_igpu",
+      "bios_path_comm_cap": "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v540tu_mtl/uefi/v1.0.1/novacustom_v54x_mtl_igpu_v1.0.1_btg_prod.cap",
+      "eom_path_comm_cap":  "novacustom_v5x0_mtl/novacustom_mtl_igpu/novacustom_v540tu_mtl/uefi/v1.0.1/novacustom_v54x_mtl_igpu_v1.0.1_btg_prod_eom.cap"
+    }
+  }
+}
