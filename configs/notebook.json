@@ -7,6 +7,7 @@
   "bucket_dpp_heads": "dasharo-novacustom-heads",
   "need_bootsplash_migration": true,
   "flashrom_add_opt_update_override": "--ifd -i bios",
+  "authority_name": "NovaCustom",
   "models": {
     "nv4xmb,me,mz": {
       "DASHARO_REL_NAME": "novacustom_nv4x_tgl",
