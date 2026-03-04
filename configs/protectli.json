@@ -3,14 +3,14 @@
     "vp6650": {
       "dasharo_rel_ver_cap": "0.9.3",
       "dasharo_support_cap_from": "0.9.3",
-      "intel_btg_hash": "todo_replace_this_with_hash",
-      "eom_path_comm_cap": "protectli_vault_adl/v0.9.3/protectli_vp66xx_v0.9.3_eom.cap"
+      "intel_btg_hash": "e64b6b0e82c68fecc58f750d3696c26e1c98bf9e3149c81f3b2ed775eb9d2c157a99c103c62c44c0cdc61be971caeae1",
+      "eom_path_comm_cap":  "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_prod.cap"
     },
     "vp6670": {
       "dasharo_rel_ver_cap": "0.9.3",
       "dasharo_support_cap_from": "0.9.3",
-      "intel_btg_hash": "todo_replace_this_with_hash",
-      "eom_path_comm_cap": "protectli_vault_adl/v0.9.3/protectli_vp66xx_v0.9.3_eom.cap"
+      "intel_btg_hash": "e64b6b0e82c68fecc58f750d3696c26e1c98bf9e3149c81f3b2ed775eb9d2c157a99c103c62c44c0cdc61be971caeae1",
+      "eom_path_comm_cap":  "novacustom_v5x0_mtl/novacustom_mtl_dgpu/novacustom_v560tnx_mtl/uefi/v1.0.0/novacustom_v56x_mtl_dgpu_v1.0.0_btg_prod.cap"
     }
   }
 }
