@@ -182,3 +182,16 @@ index 0000000..c5acffc
 +    }
 +  }
 +}
+
+## Docs mapping export (for issue #1576)
+
+To help generate DTS supported-hardware documentation, this repository now
+provides a generated mapping file:
+
+- `configs/docs_supported_platforms.json`
+
+Regenerate it after config updates with:
+
+```bash
+python3 tools/export_supported_platforms.py
+```

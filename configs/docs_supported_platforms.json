@@ -1,0 +1,163 @@
+{
+  "generated_from": "configs/*.json",
+  "purpose": "Mapping between dmidecode-style identifiers and Dasharo release names for docs generation",
+  "count": 26,
+  "entries": [
+    {
+      "system_vendor": "3mdeb_test_config",
+      "system_model": "fum_cap_test",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_v54x_mtl_igpu"
+    },
+    {
+      "system_vendor": "asrock_industrial",
+      "system_model": "nuc box-125h",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_nuc_box_mtl"
+    },
+    {
+      "system_vendor": "hardkernel",
+      "system_model": "odroid-h4",
+      "board_model": null,
+      "dasharo_rel_name": "hardkernel_odroid_h4"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7d25",
+      "board_model": "pro z690-a (ms-7d25)",
+      "dasharo_rel_name": "msi_ms7d25"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7d25",
+      "board_model": "pro z690-a ddr4(ms-7d25)",
+      "dasharo_rel_name": "msi_ms7d25"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7d25",
+      "board_model": "pro z690-a wifi (ms-7d25)",
+      "dasharo_rel_name": "msi_ms7d25"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7d25",
+      "board_model": "pro z690-a wifi ddr4(ms-7d25)",
+      "dasharo_rel_name": "msi_ms7d25"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7e06",
+      "board_model": "pro z790-p (ms-7e06)",
+      "dasharo_rel_name": "msi_ms7e06"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7e06",
+      "board_model": "pro z790-p ddr4 (ms-7e06)",
+      "dasharo_rel_name": "msi_ms7e06"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7e06",
+      "board_model": "pro z790-p ddr4(ms-7e06)",
+      "dasharo_rel_name": "msi_ms7e06"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7e06",
+      "board_model": "pro z790-p wifi (ms-7e06)",
+      "dasharo_rel_name": "msi_ms7e06"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7e06",
+      "board_model": "pro z790-p wifi ddr4 (ms-7e06)",
+      "dasharo_rel_name": "msi_ms7e06"
+    },
+    {
+      "system_vendor": "micro-star_international_co.,_ltd.",
+      "system_model": "ms-7e06",
+      "board_model": "pro z790-p wifi ddr4(ms-7e06)",
+      "dasharo_rel_name": "msi_ms7e06"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "ns50_70mu",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_ns5x_tgl"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "ns5x_ns7xpu",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_ns5x_adl"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "nv4xmb,me,mz",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_nv4x_tgl"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "nv4xpz",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_nv4x_adl"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "v54x_6x_tu",
+      "board_model": "v540tu",
+      "dasharo_rel_name": "novacustom_v54x_mtl_igpu"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "v54x_6x_tu",
+      "board_model": "v560tu",
+      "dasharo_rel_name": "novacustom_v56x_mtl_igpu"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "v5xtnc_tnd_tne",
+      "board_model": "v540tnx",
+      "dasharo_rel_name": "novacustom_v54x_mtl_dgpu"
+    },
+    {
+      "system_vendor": "notebook",
+      "system_model": "v5xtnc_tnd_tne",
+      "board_model": "v560tnx",
+      "dasharo_rel_name": "novacustom_v56x_mtl_dgpu"
+    },
+    {
+      "system_vendor": "novacustom",
+      "system_model": "nuc_box",
+      "board_model": null,
+      "dasharo_rel_name": "novacustom_nuc_box_mtl"
+    },
+    {
+      "system_vendor": "pc_engines",
+      "system_model": "apu2",
+      "board_model": null,
+      "dasharo_rel_name": "pcengines_apu2"
+    },
+    {
+      "system_vendor": "pc_engines",
+      "system_model": "apu3",
+      "board_model": null,
+      "dasharo_rel_name": "pcengines_apu3"
+    },
+    {
+      "system_vendor": "pc_engines",
+      "system_model": "apu4",
+      "board_model": null,
+      "dasharo_rel_name": "pcengines_apu4"
+    },
+    {
+      "system_vendor": "pc_engines",
+      "system_model": "apu6",
+      "board_model": null,
+      "dasharo_rel_name": "pcengines_apu6"
+    }
+  ]
+}
