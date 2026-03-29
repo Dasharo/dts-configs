@@ -93,6 +93,20 @@ can_use_flashrom
 Not all system models are divided into board models, sometimes the
 `board_models` dictionary might be absent in the JSON files.
 
+## Contribution
+
+There are two important branches:
+
+* `main`: contains metadata that are used by DTS end-users to update or
+  install Dasharo firmware using DTS.
+* `develop`: contains metadata that are used by CI/CDs when testing DTS.
+
+The `main` branch can be behind `develop` (for example, when the metadata
+should be tested by CI/CDs before merging to `main`). But `develop` must not be
+behind `main` unless there is a specific reason. Note that `develop` should not
+be rebased. Instead, when opening a PR to `main` and after merging it - open a
+PR from `main` to `develop`.
+
 ## Example changes
 
 Bumping the firmware revision for an existing board (`Odroid H4+`):
