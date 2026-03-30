@@ -15,7 +15,7 @@
       "CAN_INSTALL_BIOS": "true",
       "COMPATIBLE_EC_FW_VERSION": "2022-10-07_c662165",
       "bios_path_comm": "novacustom_nv4x_tgl/v1.5.2/novacustom_nv4x_tgl_v1.5.2.rom",
-      "ec_path_comm": "novacustom_nv4x_tgl/v1.5.2/novacustom_nv4x_tgl_ec_v1.5.2.rom"
+      "ec_path_comm":   "novacustom_nv4x_tgl/v1.5.2/novacustom_nv4x_tgl_ec_v1.5.2.rom"
     },
 
     "ns50_70mu": {
@@ -25,34 +25,44 @@
       "compatible_ec_fw_version": "2022-08-31_cbff21b",
       "programmer_ec": "ite_ec:romsize=128K,autoload=disable",
       "bios_path_comm": "novacustom_ns5x_tgl/v1.5.2/novacustom_ns5x_tgl_v1.5.2.rom",
-      "ec_path_comm": "novacustom_ns5x_tgl/v1.5.2/novacustom_ns5x_tgl_ec_v1.5.2.rom"
+      "ec_path_comm":   "novacustom_ns5x_tgl/v1.5.2/novacustom_ns5x_tgl_ec_v1.5.2.rom"
     },
 
     "ns5x_ns7xpu" : {
       "dasharo_rel_name": "novacustom_ns5x_adl",
-      "dasharo_rel_ver": "1.7.2",
-      "compatible_ec_fw_version": "2022-08-31_cbff21b",
-      "bios_path_comm": "novacustom_ns5x_adl/v1.7.2/novacustom_ns5x_adl_v1.7.2.rom",
-      "ec_path_comm": "novacustom_ns5x_adl/v1.7.2/novacustom_ns5x_adl_ec_v1.7.2.rom"
+      "dasharo_rel_ver":                   "1.8.0",
+      "dasharo_rel_ver_cap":               "1.8.0",
+      "dasharo_support_cap_from":          "1.8.0",
+      "dasharo_support_cap_with_fum_from": "1.8.0",
+      "compatible_ec_fw_version": "2025-10-31_af6bd04",
+      "bios_path_comm":     "novacustom_ns5x_adl/uefi/v1.8.0/novacustom_ns5x_adl_v1.8.0_btg_prod.rom",
+      "ec_path_comm":       "novacustom_ns5x_adl/uefi/v1.8.0/novacustom_ns5x_adl_ec_v1.8.0.rom",
+      "eom_path_comm_cap":  "novacustom_ns5x_adl/uefi/v1.8.0/novacustom_ns5x_adl_v1.8.0_btg_prod_eom.cap",
+      "intel_btg_hash": "c33719478dd42ca987ace37348aa4a00c77a56423a7727c5f7b703e81d72710ef4c00fc740383f2baa866ef48bd57148"
     },
 
     "nv4xpz": {
       "dasharo_rel_name": "novacustom_nv4x_adl",
-      "dasharo_rel_ver": "1.7.2",
-      "heads_rel_ver_dpp": "0.9.2",
+      "dasharo_rel_ver":                   "1.8.0",
+      "dasharo_rel_ver_cap":               "1.8.0",
+      "dasharo_support_cap_from":          "1.8.0",
+      "dasharo_support_cap_with_fum_from": "1.8.0",
+      "heads_rel_ver_dpp":                 "0.9.2",
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
-      "compatible_ec_fw_version": "2022-08-31_cbff21b",
-      "bios_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_v1.7.2.rom",
-      "ec_path_comm": "novacustom_nv4x_adl/v1.7.2/novacustom_nv4x_adl_ec_v1.7.2.rom",
+      "compatible_ec_fw_version": "2025-10-31_af6bd04",
       "have_heads_fw": true,
-      "heads_link_dpp": "dasharo-novacustom-heads/novacustom_nv4x_adl/v0.9.2/novacustom_nv4x_adl_v0.9.2_heads.rom"
+      "bios_path_comm":     "novacustom_nv4x_adl/uefi/v1.8.0/novacustom_nv4x_adl_v1.8.0_btg_prod.rom",
+      "ec_path_comm":       "novacustom_nv4x_adl/uefi/v1.8.0/novacustom_nv4x_adl_ec_v1.8.0.rom",
+      "eom_path_comm_cap":  "novacustom_nv4x_adl/uefi/v1.8.0/novacustom_nv4x_adl_v1.8.0_btg_prod_eom.cap",
+      "heads_link_dpp":     "dasharo-novacustom-heads/novacustom_nv4x_adl/v0.9.2/novacustom_nv4x_adl_v0.9.2_heads.rom",
+      "intel_btg_hash": "c33719478dd42ca987ace37348aa4a00c77a56423a7727c5f7b703e81d72710ef4c00fc740383f2baa866ef48bd57148"
     },
 
     "v54x_6x_tu": {
-      "dasharo_rel_ver": "1.0.1",
-      "dasharo_rel_ver_cap": "1.0.1",
+      "dasharo_rel_ver":          "1.0.1",
+      "dasharo_rel_ver_cap":      "1.0.1",
       "dasharo_support_cap_from": "1.0.0-rc7",
-      "heads_rel_ver_dpp": "0.9.0",
+      "heads_rel_ver_dpp":        "0.9.0",
       "have_heads_fw": true,
       "compatible_ec_fw_version": "2024-07-17_4ae73b9",
       "heads_switch_flashrom_opt_override": "--ifd -i bios",
@@ -83,8 +93,8 @@
     },
 
     "v5xtnc_tnd_tne": {
-      "dasharo_rel_ver": "1.0.0",
-      "dasharo_rel_ver_cap": "1.0.0",
+      "dasharo_rel_ver":          "1.0.0",
+      "dasharo_rel_ver_cap":      "1.0.0",
       "dasharo_support_cap_from": "1.0.0-rc7",
       "compatible_ec_fw_version": "2024-09-10_3786c8c",
       "programmer_bios": "internal:boardmismatch=force",
