@@ -6,8 +6,11 @@
   "models": {
     "nuc_box": {
       "dasharo_rel_name": "novacustom_nuc_box_mtl",
-      "dasharo_rel_ver": "0.9.0",
-      "bios_path_comm": "novacustom_nuc_box_mtl/uefi/v0.9.0/novacustom_nuc_box_mtl_v0.9.0.rom"
+      "dasharo_rel_ver":          "0.9.1",
+      "dasharo_rel_ver_cap":      "0.9.1",
+      "dasharo_support_cap_from": "0.9.0",
+      "bios_path_comm":     "novacustom_nuc_box_mtl/uefi/v0.9.1/novacustom_nuc_box_mtl_v0.9.1.rom",
+      "bios_path_comm_cap": "novacustom_nuc_box_mtl/uefi/v0.9.1/novacustom_nuc_box_mtl_v0.9.1.cap"
     }
   }
 }
